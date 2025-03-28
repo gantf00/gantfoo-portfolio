@@ -5,11 +5,13 @@ htmlClass: html
 bodyClass: body
 ---
 <h1>Grant Frazier</h1>
-<p>is an author in chicago.<p>
-<br><br>
-<h2>My Poems</h2>
-<ul>
-{% for poem in collections.poems %}
-  <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
-{% endfor %}
-</ul>
+<p>is an author in chicago.</p>
+
+<div style="margin-top: 2rem;">
+  <h2>My Poems</h2>
+  <ul>
+  {% for poem in collections.poems %}
+    <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
