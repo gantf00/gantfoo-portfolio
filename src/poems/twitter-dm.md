@@ -1,8 +1,11 @@
 ---
 title: Twitter DM Death Threat I Sent to Jesus Christ Last Night
 layout: default.njk
+bodyClass: poem-page
 ---
 
+<div class="poem-content">
+  
 **Twitter DM Death Threat I Sent to Jesus Christ Last Night**  
 YOU prince of cold, of peace, of stones and lobbing long-thrown   
 venom writhing wriggling: I am rumbling raging brush and   
@@ -21,3 +24,5 @@ you are cannibal teeth gnawing my petrochemical kitchen sink,
 you are black tar fuming up up up and spewing the color of red-  
 robe cardinals locking down rome so they can burn the pope and  
 transubstantiate his holy Holy Holy into soot for all the birds to *choke\!\!\!*
+  
+</div>
