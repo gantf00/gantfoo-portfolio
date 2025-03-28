@@ -44,6 +44,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('src/favicon.ico');
   // Everything inside static is copied verbatim to `_site`
   config.addPassthroughCopy('src/assets/static');
+  config.addPassthroughCopy('src/assets/fonts');
 
   // BrowserSync Overrides
   config.setBrowserSyncConfig({
