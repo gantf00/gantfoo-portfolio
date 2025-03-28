@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html class="{{ htmlClass }}" lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
@@ -21,14 +20,13 @@
   </head>
   <body class="{{ bodyClass }}">
     <!-- Add navigation here -->
-<!-- In your default.njk file -->
-<header>
-  <nav>
-    {% if page.url != "/" %}
-      <a href="/">Home</a>
-    {% endif %}
-  </nav>
-</header>
+    <header style="width: 100%; max-width: 800px; padding: 0 3rem; margin: 0 auto;">
+      <nav>
+        {% if page.url != "/" %}
+          <a href="/" style="display: inline-block; margin: 1rem 0;">Home</a>
+        {% endif %}
+      </nav>
+    </header>
     <main>
       {{ content | safe }}
     </main>
