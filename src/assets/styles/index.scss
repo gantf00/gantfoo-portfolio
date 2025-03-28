@@ -18,6 +18,22 @@ body {
   flex-direction: column;
 }
 
+.header-row {
+  display: flex;
+  align-items: baseline; // This aligns text by their baselines
+  gap: 0.5rem; // Space between elements
+  margin-bottom: 2rem; // Space below the row
+  padding: 0 2rem; // Left padding
+  
+  h1 {
+    margin: 0; // Remove default margins
+  }
+  
+  p {
+    margin: 0; // Remove default margins
+  }
+}
+
 // Add styling for all headings
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
