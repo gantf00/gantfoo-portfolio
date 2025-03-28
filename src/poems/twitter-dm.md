@@ -1,12 +1,12 @@
 ---
-title: Twitter DM Death Threat I Sent to Jesus Christ Last Night
+title: Twitter DM Death Threat I Sent to Jesus Christ Last Night – Maudlin House, Apr. 5, 2025
 layout: default.njk
 bodyClass: poem-page
 ---
 
 <div class="poem-content">
   
-**Twitter DM Death Threat I Sent to Jesus Christ Last Night**  
+**Twitter DM Death Threat I Sent to Jesus Christ Last Night** (Originally published on maudlinhouse.net) 
 YOU prince of cold, of peace, of stones and lobbing long-thrown   
 venom writhing wriggling: I am rumbling raging brush and   
 you are my animal sibling grunting & growling, howling flesh  
