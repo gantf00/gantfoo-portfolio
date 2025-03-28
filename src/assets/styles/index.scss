@@ -3,7 +3,7 @@ $bg-body: antiquewhite;
 
 @font-face {
   font-family: 'opti-planet';
-  src: url('/assets/fonts/OPTIPlanet-Light.ttf.woff') format('woff');
+  src: url('../fonts/OPTIPlanet-Light.ttf.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* This helps prevent FOIT (Flash of Invisible Text) */
