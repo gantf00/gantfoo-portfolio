@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="{{ htmlClass }}" lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
@@ -20,14 +21,14 @@
   </head>
   <body class="{{ bodyClass }}">
     <!-- Add navigation here -->
-    <header>
-      <nav>
-        <ul style="list-style: none; display: flex; gap: 20px; padding: 10px;">
-          <li><a href="/">Home</a></li>
-          <!-- You can dynamically generate links to individual poems if you set up collections -->
-        </ul>
-      </nav>
-    </header>
+<!-- In your default.njk file -->
+<header>
+  <nav>
+    {% if page.url != "/" %}
+      <a href="/">Home</a>
+    {% endif %}
+  </nav>
+</header>
     <main>
       {{ content | safe }}
     </main>
