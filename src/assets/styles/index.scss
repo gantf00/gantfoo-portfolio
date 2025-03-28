@@ -1,4 +1,4 @@
-$blue: darkslateblue;
+t$blue: darkslateblue;
 $bg-body: antiquewhite;
 $heading-font: 'Forum', serif;
 $body-font: 'Work Sans', sans-serif;
@@ -16,7 +16,7 @@ body {
   color: $blue;
   background-color: $bg-body;
   display: flex;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 main {
   display: flex;
   flex-grow: 1;
-  align-items: center;
-  flex-direction: left;
+  align-items: left;
+  flex-direction: column;
   img {
     width: 6rem;
   }
