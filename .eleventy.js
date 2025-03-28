@@ -66,6 +66,10 @@ module.exports = (config) => {
     ghostMode: false
   });
 
+  config.addCollection("poems", function(collectionApi) {
+      return collectionApi.getFilteredByGlob("src/poems/*.md");
+    });
+
   return {
     dir: { input: 'src', output: '_site', includes: 'includes', data: 'data' },
     // Allow nunjucks, markdown and 11ty files to be processed
