@@ -1,7 +1,7 @@
 ---
 title: Roots
 layout: default.njk
-bodyClass:poem-page
+bodyClass: poem-page
 ---
 
 ## Roots 
