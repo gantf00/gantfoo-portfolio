@@ -1,11 +1,11 @@
 $blue: darkslateblue;
 $bg-body: antiquewhite;
 $heading-font: 'Forum', serif;
-$body-font: 'YourCustomFont', 'Times New Roman', serif;
+$body-font: 'opti-planet', 'Times New Roman', serif;
 
 @font-face {
   font-family: 'opti-planet';
-  src: url('/assets/fonts/OPTIPlanet-Light.ttf.woff') format('woff');
+  src: url('src/assets/fonts/OPTIPlanet-Light.ttf.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap; // This helps prevent FOIT (Flash of Invisible Text)
