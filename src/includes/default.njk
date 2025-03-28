@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ description or site.description }}">
     <meta name="referrer" content="no-referrer-when-downgrade">
-
     {# Open graph related #}
     <meta property="og:title" content="{{ title or site.title or site.name }}" />
     <meta property="og:type" content="{{ type or site.type }}" />
@@ -14,14 +13,21 @@
     <meta property="og:image" content="{{ image or site.image }}" />
     <meta property="og:site_name" content="{{ name or site.name }}" />
     <meta property="og:description" content="{{ description or site.description }}" />
-
     <link rel="stylesheet" href="{% webpack 'main.css' %}">
   </head>
   <body class="{{ bodyClass }}">
+    <!-- Add navigation here -->
+    <header>
+      <nav>
+        <ul style="list-style: none; display: flex; gap: 20px; padding: 10px;">
+          <li><a href="/">Home</a></li>
+          <!-- You can dynamically generate links to individual poems if you set up collections -->
+        </ul>
+      </nav>
+    </header>
     <main>
       {{ content | safe }}
     </main>
-
     <footer>
       <p><a href="{{ site.url }}">{% icon "github" %}eleventy-webpack</a> - <time datetime="{{ build.timestamp | formatISO }}">{{ build.timestamp | format("dd LLL yyyy") }}</time></p>
     </footer>
