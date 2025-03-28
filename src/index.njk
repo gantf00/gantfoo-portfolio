@@ -7,8 +7,9 @@ bodyClass: body
 <h1>Hello world 👋<br/>from “{{ site.name }}”</h1>
 {% image "eleventy_logo.png", "The possum is Eleventy’s mascot" %}
 
-# My Poems
-
+<h2>My Poems</h2>
+<ul>
 {% for poem in collections.poems %}
-- [{{ poem.data.title }}]({{ poem.url }})
+  <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
 {% endfor %}
+</ul>
