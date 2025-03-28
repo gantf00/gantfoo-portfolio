@@ -1,10 +1,10 @@
 ---
-title: Roots
+title: Roots – WREATH 2025 Spring Mag
 layout: default.njk
 bodyClass: poem-page
 ---
 
-## Roots 
+## Roots (published in WREATH LC's Spring 2025 Magazine)
 <div class="poem-content">
   
 my greatgreatgreatgreat grandpa david   
