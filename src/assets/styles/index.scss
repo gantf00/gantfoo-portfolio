@@ -1,4 +1,4 @@
-t$blue: darkslateblue;
+$blue: darkslateblue;
 $bg-body: antiquewhite;
 $heading-font: 'Forum', serif;
 $body-font: 'Work Sans', sans-serif;
@@ -10,8 +10,6 @@ body {
   font-family: $body-font;
 }
 
-// A general comment that should be
-// stripped out in production
 body {
   color: $blue;
   background-color: $bg-body;
@@ -29,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 main {
   display: flex;
   flex-grow: 1;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
   img {
     width: 6rem;
@@ -54,5 +52,5 @@ main {
 .poem-content {
   width: 100%;
   white-space: pre-wrap;
-  line-height: 1.15;
+  line-height: 1.1;
 }
