@@ -5,7 +5,7 @@ bodyClass: poem-page
 ---
 
 ## Roots 
-
+<div class="poem-content">
 my greatgreatgreatgreat grandpa david   
 joined the mormon church in 1835\.  
 he was a quiet, mystic farmer man   
@@ -56,3 +56,4 @@ teaching podunk pioneers to grow fruit
 in salt lake city and provo and st. george.   
 nobody knows where he’s buried now, but   
 his kids said he’s under one of his apple trees.
+</div>
