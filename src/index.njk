@@ -18,12 +18,12 @@ bodyClass: body
     <a href="{{ poem.url }}">{{ poem.data.title }}</a>
     <div class="meta-info">
       {% if poem.data.publicationUrl %}
-        <a href="{{ poem.data.publicationUrl }}" class="publication-link">{{ poem.data.publication }}</a>
+        <a href="{{ poem.data.publicationUrl }}">{{ poem.data.publication }}</a>
       {% else %}
         <span>{{ poem.data.publication }}</span>
       {% endif %}
-      <span class="dot">·</span>
-      <span class="date-info">{{ poem.data.date | format("MMM yyyy") }}</span>
+      <span class="separator"> // </span>
+      <span>{{ poem.data.date | format("MMM yyyy") }}</span>
     </div>
   </li>
   {% endfor %}
