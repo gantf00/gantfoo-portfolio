@@ -1,5 +1,7 @@
 ---
-title: Roots – WREATH 2025 Spring Mag
+title: Roots (WREATH Mag)
+date: 2025-04-07
+publication: WREATH LC
 layout: default.njk
 bodyClass: poem-page
 ---
