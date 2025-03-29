@@ -68,8 +68,9 @@ module.exports = (config) => {
   });
 
   config.addCollection("poems", function(collectionApi) {
-      return collectionApi.getFilteredByGlob("src/poems/*.md");
-    });
+    return collectionApi.getFilteredByGlob("src/poems/*.md")
+      .sort((a, b) => b.data.date - a.data.date); // Most recent first
+  });
 
   return {
     dir: { input: 'src', output: '_site', includes: 'includes', data: 'data' },
