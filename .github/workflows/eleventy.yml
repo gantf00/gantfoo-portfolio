@@ -15,6 +15,12 @@ jobs:
           
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
+
+      - name: Build site
+        run: |
+              export NODE_ENV=production
+              export ELEVENTY_ENV=production
+              npx @11ty/eleventy
         
       - name: Build site
         run: npx @11ty/eleventy
