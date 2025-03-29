@@ -4,7 +4,8 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-## **Roots** // WREATH LC Spring Mag
+## **Roots** 
+*Published in WREATH LC's Spring 2025 mag*
 <div class="poem-content">
   
 my greatgreatgreatgreat grandpa david   
