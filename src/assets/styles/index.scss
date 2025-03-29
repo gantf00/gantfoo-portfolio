@@ -1,4 +1,4 @@
-// Your existing variables
+
 $blue: darkslateblue;
 $bg-body: antiquewhite;
 $heading-font: 'opti-planet', 'Work Sans', sans-serif;
@@ -127,14 +127,52 @@ main {
 
 // Adjust homepage layout
 .home-container {
-  padding: 0 2rem;
+  padding: 4rem 2rem 0 2rem; /* Added top padding */
   max-width: 800px;
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
   
   @media (max-width: $mobile) {
-    padding: 0 1rem;
+    padding: 3rem 1rem 0 1rem;
+  }
+
+  .title-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    white-space: nowrap; /* Prevents title from breaking */
+    
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .name {
+      font-size: 2.5rem;
+      margin: 0;
+      
+      @media (max-width: $mobile) {
+        font-size: 2rem;
+      }
+    }
+    
+    .subtitle {
+      font-size: 1.4rem;
+      margin: 0;
+      
+      @media (max-width: $mobile) {
+        font-size: 1.2rem;
+        white-space: normal; /* Allow subtitle to wrap */
+      }
+    }
+  }
+
+  h2 {
+    font-weight: 700; /* Makes Published Poems bold */
+    margin: 3rem 0 1.5rem 0;
   }
 
   ul {
@@ -147,13 +185,13 @@ main {
       a {
         display: block;
         color: $blue;
-        text-decoration: none;  /* Remove underline by default */
+        text-decoration: none;
         font-size: 1.1rem;
-        transition: all 0.2s ease; /* Smooth transition for the text transform */
+        transition: all 0.2s ease;
         
         &:hover {
-          text-transform: uppercase; /* Convert to uppercase on hover */
-          text-decoration: none;  /* Ensure no underline on hover */
+          text-transform: uppercase;
+          text-decoration: none;
         }
       }
       
