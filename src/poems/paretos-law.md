@@ -1,6 +1,8 @@
 ---
 title: Pareto's Law
 date: 2023-02-05
+publication: Prodigal Press
+publicationUrl: https://www.instagram.com/p/Coc_9tfvEC8/
 layout: default.njk
 bodyClass: poem-page
 ---
