@@ -2,6 +2,7 @@
 title: Twitter DM Death Threat I Sent to Jesus Christ Last Night
 date: 2025-04-05
 publication: Maudlin House
+publicationUrl: https://maudlinhouse.net/
 layout: default.njk
 bodyClass: poem-page
 ---
