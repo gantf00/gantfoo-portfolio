@@ -14,7 +14,10 @@ bodyClass: body
   <h2>Published Poems</h2>
   <ul>
   {% for poem in collections.poems %}
-    <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
+    <li><a href="{{ poem.url }}">{{ poem.data.title }}</a>
+      <div class="publication-info">{{ poem.data.publication }}</div>
+      <div class="date-info">{{ poem.data.date }}</div>
+    </li>
   {% endfor %}
   </ul>
 </div>
