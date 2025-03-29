@@ -11,17 +11,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Update this from '16' to '18'
+          node-version: '18'
           
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
-
-      - name: Build site
-        run: |
-              export NODE_ENV=production
-              export ELEVENTY_ENV=production
-              npx @11ty/eleventy
         
+      - name: Build webpack assets first
+        run: npx webpack --mode production
+        
+      - name: Build site with eleventy
+        run: |
+          export NODE_ENV=production
+          export ELEVENTY_ENV=production
+          npx @11ty/eleventy
         
       - name: Create .nojekyll file
         run: touch _site/.nojekyll
