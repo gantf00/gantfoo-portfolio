@@ -2,6 +2,7 @@
 title: Roots
 date: 2025-04-07
 publication: WREATH LC
+publicationUrl: https://www.instagram.com/wreathlc/
 layout: default.njk
 bodyClass: poem-page
 ---
