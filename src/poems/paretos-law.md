@@ -1,5 +1,6 @@
 ---
-title: Pareto's Law (Prodigal Press, Feb 2023)
+title: Pareto's Law (Prodigal Press)
+date: 2023-02-05
 layout: default.njk
 bodyClass: poem-page
 ---
