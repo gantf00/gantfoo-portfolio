@@ -7,7 +7,7 @@ bodyClass: poem-page
 
   
 ## **Twitter DM Death Threat I Sent to Jesus Christ Last Night** 
-(Originally published on maudlinhouse.net) 
+*Published to MaudlinHouse.net on Apr. 5 2025*
 <div class="poem-content">
   
 YOU prince of cold, of peace, of stones and lobbing long-thrown   
