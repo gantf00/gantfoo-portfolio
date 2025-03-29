@@ -14,10 +14,18 @@ bodyClass: body
   <h2>Published Poems</h2>
   <ul>
   {% for poem in collections.poems %}
-    <li><a href="{{ poem.url }}">{{ poem.data.title }}</a>
-      <div class="publication-info">{{ poem.data.publication }}</div>
-      <div class="date-info">{{ poem.data.date | format("MMM yyyy") }}</div>
-    </li>
+  <li>
+    <a href="{{ poem.url }}">{{ poem.data.title }}</a>
+    <div class="meta-info">
+      {% if poem.data.publicationUrl %}
+        <a href="{{ poem.data.publicationUrl }}" class="publication-link">{{ poem.data.publication }}</a>
+      {% else %}
+        <span>{{ poem.data.publication }}</span>
+      {% endif %}
+      <span class="dot">·</span>
+      <span class="date-info">{{ poem.data.date | format("MMM yyyy") }}</span>
+    </div>
+  </li>
   {% endfor %}
   </ul>
 </div>
