@@ -1,5 +1,5 @@
 ---
-title: Roots (WREATH Mag)
+title: Roots
 date: 2025-04-07
 publication: WREATH LC
 layout: default.njk
