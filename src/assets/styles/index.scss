@@ -1,4 +1,4 @@
-
+// Your existing variables
 $blue: darkslateblue;
 $bg-body: antiquewhite;
 $heading-font: 'opti-planet', 'Work Sans', sans-serif;
@@ -193,14 +193,32 @@ main {
           text-transform: uppercase;
           text-decoration: none;
           font-weight: 700;
-          
         }
       }
       
-      .publication-info {
-        font-size: 0.9rem;
-        color: rgba($blue, 0.8);
+      .meta-info {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.8rem;  /* Made smaller */
+        color: rgba($blue, 0.5);  /* Made lighter */
         margin-top: 0.2rem;
+
+        a {
+          /* Reset the display block from the other link styles */
+          display: inline;
+          font-size: inherit;
+          color: rgba($blue, 0.5);  /* Made lighter */
+          text-decoration: none;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .separator {
+          color: rgba($blue, 0.5);  /* Made lighter */
+        }
       }
     }
   }
