@@ -16,7 +16,7 @@ bodyClass: body
   {% for poem in collections.poems %}
     <li><a href="{{ poem.url }}">{{ poem.data.title }}</a>
       <div class="publication-info">{{ poem.data.publication }}</div>
-      <div class="date-info">{{ poem.data.date }}</div>
+      <div class="date-info">{{ poem.data.date | format("MMM yyyy") }}</div>
     </li>
   {% endfor %}
   </ul>
