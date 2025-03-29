@@ -147,11 +147,13 @@ main {
       a {
         display: block;
         color: $blue;
-        text-decoration: none;
+        text-decoration: none;  /* Remove underline by default */
         font-size: 1.1rem;
+        transition: all 0.2s ease; /* Smooth transition for the text transform */
         
         &:hover {
-          text-decoration: underline;
+          text-transform: uppercase; /* Convert to uppercase on hover */
+          text-decoration: none;  /* Ensure no underline on hover */
         }
       }
       
