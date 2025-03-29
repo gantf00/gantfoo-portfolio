@@ -126,27 +126,45 @@ main {
 }
 
 // Adjust homepage layout
-.home-content {
-  padding: 0 3rem;
+.home-container {
+  padding: 0 2rem;
   max-width: 800px;
   width: 100%;
   box-sizing: border-box;
+  margin: 0 auto;
   
   @media (max-width: $mobile) {
     padding: 0 1rem;
   }
+}
+
+.title-block {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
   
-  h1 {
-    font-size: 2rem;
+  @media (max-width: $mobile) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    margin: 0;
     
-    span {
-      display: block;
-      font-size: 1.4rem;
-      margin-top: 0.5rem;
-      
-      @media (max-width: $mobile) {
-        font-size: 1.2rem;
-      }
+    @media (max-width: $mobile) {
+      font-size: 2rem;
+    }
+  }
+  
+  .subtitle {
+    font-size: 1.4rem;
+    margin: 0;
+    
+    @media (max-width: $mobile) {
+      font-size: 1.2rem;
     }
   }
 }
