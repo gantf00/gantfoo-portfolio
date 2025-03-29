@@ -21,9 +21,14 @@ jobs:
               export NODE_ENV=production
               export ELEVENTY_ENV=production
               npx @11ty/eleventy
+
+      - name: Debug asset issues
+        run: |
+          echo "Checking manifest file:"
+          cat _site/assets/manifest.json
+          echo "Checking generated assets:"
+          ls -la _site/assets/
         
-      - name: Build site
-        run: npx @11ty/eleventy
         
       - name: Create .nojekyll file
         run: touch _site/.nojekyll
