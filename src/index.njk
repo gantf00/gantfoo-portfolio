@@ -13,7 +13,7 @@ bodyClass: body
   </div>
 
   <h2>published poems</h2>
-  <ul>
+  <ul class="work-list">
   {% for poem in collections.poems %}
   <li>
     <a href="{{ poem.url }}">{{ poem.data.title }}</a>
@@ -31,7 +31,7 @@ bodyClass: body
   </ul>
 
 <h2>published articles</h2>
-  <ul>
+  <ul class="work-list">
   {% for essay in collections.essays %}
     <li>
       <a href="{{ essay.url }}">{{ essay.data.title }}</a>
