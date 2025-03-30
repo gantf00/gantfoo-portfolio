@@ -72,6 +72,11 @@ module.exports = (config) => {
       .sort((a, b) => b.data.date - a.data.date); // Most recent first
   });
 
+  config.addCollection("essays", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/essays/*.md")
+      .sort((a, b) => b.data.date - a.data.date); // Most recent first
+  });
+
   return {
     dir: { input: 'src', output: '_site', includes: 'includes', data: 'data' },
     // Allow nunjucks, markdown and 11ty files to be processed
