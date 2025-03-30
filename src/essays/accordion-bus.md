@@ -10,7 +10,7 @@ bodyClass: poem-page
 ## **I Am in Love with Provo's Accordion Bus** 
 
 *Published in [Prodigal Press](https://www.prodigalpress.org/articles/i-love-uvx)*
-<div class="poem-content">
+<div class="essay-content">
 
 I am in love with our city’s wanna-be-train. The Utah Valley Express, also known as UVX, is an accordion-style rapid transit bus that acts more like a light rail than it does a commuter bus. With dedicated lanes, independent traffic lights, and aesthetically-pleasing platform entrances, UVX stands as an exemplar of why people love good public transit. 
 
