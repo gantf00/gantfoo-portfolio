@@ -32,3 +32,18 @@
  
  <h2>published articles</h2>
    <ul class="work-list">
+   {% for essay in collections.essays %}
+     <li>
+       <a href="{{ essay.url }}">{{ essay.data.title }}</a>
+       <div class="meta-info">
+         {% if essay.data.publicationUrl %}
+           <a href="{{ essay.data.publicationUrl }}" class="publication">{{ essay.data.publication }}</a>
+         {% else %}
+           <span class="publication">{{ essay.data.publication }}</span>
+         {% endif %}
+         <span class="date">// {{ essay.data.date | format("MMM yyyy") }}</span>
+       </div>
+     </li>
+   {% endfor %}
+   </ul>
+ </div>
