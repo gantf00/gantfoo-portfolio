@@ -79,6 +79,16 @@ main {
     padding: 3rem 1rem 0 1rem;
   }
 
+  /* Make any text element transform to uppercase on hover */
+  h1, h2, p, span, a {
+    transition: all 0.2s ease;
+    
+    &:hover {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
   h2 {
     font-weight: 700;
     margin: 3rem 0 1.5rem 0;
@@ -96,12 +106,6 @@ main {
         color: $blue;
         text-decoration: none;
         font-size: 1.1rem;
-        transition: all 0.2s ease;
-        
-        &:hover {
-          text-transform: uppercase;
-          font-weight: 700;
-        }
       }
       
       .meta-info {
