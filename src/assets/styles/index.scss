@@ -1,13 +1,74 @@
 // Variables
-$blue: cornflowerblue;
+$blue: #4169E1;
 $bg-body: linen;
 $heading-font: 'opti-planet', 'Work Sans', sans-serif;
 $body-font: 'opti-planet', 'Work Sans', sans-serif;
 $mobile: 480px;
 $tablet: 768px;
 
-// Rest of your existing styles...
+// Font setup
+@font-face {
+  font-family: 'opti-planet';
+  src: url('../fonts/OPTIPlanet-Light.ttf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+// Base styles
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: $body-font;
+  font-size: 16px;
+  
+  @media (max-width: $mobile) {
+    font-size: 14px;
+  }
+}
+
+body {
+  color: $blue;
+  background-color: $bg-body;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  font-weight: normal;
+  color: $blue;
+  
+  @media (max-width: $mobile) {
+    word-wrap: break-word;
+  }
+}
+
+// Layout components
+main {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+  @media (max-width: $mobile) {
+    padding: 0 1rem;
+  }
+  
+  img {
+    width: 6rem;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// Home page styles
 .home-container {
   padding: 4rem 2rem 0 2rem;
   max-width: 800px;
@@ -28,6 +89,7 @@ $tablet: 768px;
 
     h1, p {
       transition: all 0.2s ease;
+      color: $blue;
       
       &:hover {
         font-weight: 700;
@@ -108,4 +170,81 @@ $tablet: 768px;
   }
 }
 
-// The rest of your styles (poem-page, essay-content, etc.) should follow...
+// Poem page styles
+.poem-page {
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+    @media (max-width: $mobile) {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+.poem-content {
+  width: max-content;
+  min-width: 100%;
+  white-space: pre;
+  overflow-x: auto;
+  line-height: 1.4;
+  padding: 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+  
+  @media (max-width: $mobile) {
+    font-size: 0.9em;
+    padding: 0.5rem;
+  }
+}
+
+// Essay styles
+.essay-content {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 1rem;
+  white-space: normal;
+  line-height: 1.6;
+  color: $blue;
+  
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width: $mobile) {
+    padding: 0.5rem;
+    font-size: 0.9em;
+  }
+}
+
+// Footer styles
+footer {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  color: $blue;
+  
+  @media (max-width: $mobile) {
+    padding: 1rem;
+  }
+}
