@@ -1,49 +1,49 @@
 ---
- layout: default
- title: grant frazier
- htmlClass: html
- bodyClass: body
- ---
- 
- <div class="home-container">
-   <div class="title-block">
-     <h1 class="name">grant frazier</h1>
-     <p> // twitter: <a href="https://x.com/gantisdant">@gantisdant</a></p>
-     <p> // instagram: <a href="https://instagram.com/gant.fr">@gant.fr</a></p>
+layout: default
+title: grant frazier
+htmlClass: html
+bodyClass: body
+---
+
+<div class="home-container">
+ <div class="title-block">
+   <h1 class="name">grant frazier</h1>
+   <p> // twitter: <a href="https://x.com/gantisdant">@gantisdant</a></p>
+   <p> // instagram: <a href="https://instagram.com/gant.fr">@gant.fr</a></p>
+ </div>
+
+ <h2>published poems</h2>
+ <ul class="work-list">
+ {% for poem in collections.poems %}
+ <li>
+   <a href="{{ poem.url }}">{{ poem.data.title }}</a>
+   <div class="meta-info">
+     {% if poem.data.publicationUrl %}
+       <a href="{{ poem.data.publicationUrl }}">{{ poem.data.publication }}</a>
+     {% else %}
+       <span>{{ poem.data.publication }}</span>
+     {% endif %}
+     <span class="separator"> // </span>
+     <span>{{ poem.data.date | format("MMM yyyy") }}</span>
    </div>
- 
-   <h2>published poems</h2>
-   <ul class="work-list">
-   {% for poem in collections.poems %}
+ </li>
+ {% endfor %}
+ </ul>
+
+<h2>published articles</h2>
+ <ul class="work-list">
+ {% for essay in collections.essays %}
    <li>
-     <a href="{{ poem.url }}">{{ poem.data.title }}</a>
+     <a href="{{ essay.url }}">{{ essay.data.title }}</a>
      <div class="meta-info">
-       {% if poem.data.publicationUrl %}
-         <a href="{{ poem.data.publicationUrl }}">{{ poem.data.publication }}</a>
+       {% if essay.data.publicationUrl %}
+         <a href="{{ essay.data.publicationUrl }}" class="publication">{{ essay.data.publication }}</a>
        {% else %}
-         <span>{{ poem.data.publication }}</span>
+         <span class="publication">{{ essay.data.publication }}</span>
        {% endif %}
-       <span class="separator"> // </span>
-       <span>{{ poem.data.date | format("MMM yyyy") }}</span>
+       <span class="date">// {{ essay.data.date | format("MMM yyyy") }}</span>
      </div>
    </li>
-   {% endfor %}
-   </ul>
- 
- <h2>published articles</h2>
-   <ul class="work-list">
-   {% for essay in collections.essays %}
-     <li>
-       <a href="{{ essay.url }}">{{ essay.data.title }}</a>
-       <div class="meta-info">
-         {% if essay.data.publicationUrl %}
-           <a href="{{ essay.data.publicationUrl }}" class="publication">{{ essay.data.publication }}</a>
-         {% else %}
-           <span class="publication">{{ essay.data.publication }}</span>
-         {% endif %}
-         <span class="date">// {{ essay.data.date | format("MMM yyyy") }}</span>
-       </div>
-     </li>
-   {% endfor %}
-   </ul>
- </div>
+ {% endfor %}
+ </ul>
+</div>
