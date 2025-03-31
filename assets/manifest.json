@@ -1,7 +1,6 @@
 {
   "main.css": "/assets/main.css",
   "main.js": "/assets/main.js",
-  "fonts/OPTIPlanet-Light.ttf.woff": "/assets/fonts/OPTIPlanet-Light.ttf.woff",
   "main.css.map": "/assets/main.css.map",
   "main.js.map": "/assets/main.js.map"
 }
