@@ -1,6 +1,6 @@
 ---
 title: Bigger Highways Won't Fix Traffc (Op-ed)
-date: 2021-11-12
+date: 2022-12-22
 publication: Salt Lake Tribune
 publicationUrl: https://www.sltrib.com/opinion/commentary/2022/12/22/grant-frazier-bigger-highways/
 layout: default.njk
