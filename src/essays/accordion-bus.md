@@ -6,12 +6,11 @@ publicationUrl: https://www.prodigalpress.org/articles/i-love-uvx
 layout: default.njk
 bodyClass: poem-page
 ---
+*Published in [Prodigal Press](https://www.prodigalpress.org/articles/i-love-uvx)*
 
 ## **I Am in Love with Provo's Accordion Bus** 
 
-*Published in [Prodigal Press](https://www.prodigalpress.org/articles/i-love-uvx)*
 <div class="essay-content">
-
 I am in love with our city’s wanna-be-train. The Utah Valley Express, also known as UVX, is an accordion-style rapid transit bus that acts more like a light rail than it does a commuter bus. With dedicated lanes, independent traffic lights, and aesthetically-pleasing platform entrances, UVX stands as an exemplar of why people love good public transit. 
 
 For public transit to be successful, there are a handful of commandments it has to follow: it must be frequent, it must be reliable, and it must be efficient. UVX follows these principles masterfully.  The bus stops at each station over 90 times a day and comes every 10-15 minutes. You don’t have to memorize the bus schedule to take UVX; you can just show up and trust that it’ll be there soon. Additionally, UVX takes people where they want to go—from Provo and Orem’s frontrunner stations to Provo Center Street, BYU stadium, Orem’s University Mall, to Orem Main Street—and it does it quickly. It follows the rules of your average city light-rail, but with a far lower upfront cost. Buses don’t carry the monetary risk of purchasing rails and trains, or the public outrage that would follow from widespread road closures to install them. However, UVX can still complete routes rapidly and make passengers feel safe with well-marked, well-lit platforms (as opposed to a simple bus sign planted on a dark street corner). And, the dedicated lane and platform infrastructure provides Provo with a path to eventually converting the UVX bus system into a city light rail.
@@ -29,7 +28,6 @@ But, these are all problems that are fixable, and that’s why I’m in love wit
 For the American brain—which is taught from a young age that the personal automobile denotes freedom, independence, and wanderlust—the idea of a public transit-oriented world may feel daunting or unpleasant. But the more time I’ve spent taking the bus whenever possible, the more I’ve come to feel that an effective bus system makes me feel freer than a car ever did. I’d rather not lug a two-ton metal behemoth with me everywhere I go. I’d rather not feel my blood pressure spike when I get cut off by a driver who’s responding to a text at 45mph, or spend an hour trapped in a stadium parking lot, trying to leave a concert along with thousands of other impatient, equally helpless car-prisoners. 
 
 I love the UVX and want more investments into our transit infrastructure. Because for the sake of the environment, for community equity, and my own selfish desires, I’d rather take the bus. 
-
 
 Sources:
 
