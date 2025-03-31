@@ -79,8 +79,19 @@ main {
     padding: 3rem 1rem 0 1rem;
   }
 
-  /* Make any text element transform to uppercase on hover */
-  h1, h2, p, span, a {
+  /* Sections that only get bold on hover */
+  .title-block {
+    h1, p {
+      transition: all 0.2s ease;
+      
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+
+  /* Elements that get both uppercase and bold on hover */
+  h2, ul li a {
     transition: all 0.2s ease;
     
     &:hover {
