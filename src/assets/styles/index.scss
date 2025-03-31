@@ -81,7 +81,7 @@ main {
 
   /* Sections that only get bold on hover */
   .title-block {
-    h1, p {
+    , p {
       transition: all 0.2s ease;
       
       &:hover {
@@ -95,7 +95,6 @@ main {
     transition: all 0.2s ease;
     
     &:hover {
-      text-transform: uppercase;
       font-weight: 700;
     }
   }
