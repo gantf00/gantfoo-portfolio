@@ -6,10 +6,11 @@ publicationUrl: https://www.instagram.com/p/CK4tQFwhiqd/?utm_source=ig_web_copy_
 layout: default.njk
 bodyClass: poem-page
 ---
-*Published in [Prodigal Press](https://www.instagram.com/p/CK4tQFwhiqd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)*
+
 
 <div class="essay-content">
-  
+
+*Published in [Prodigal Press](https://www.instagram.com/p/CK4tQFwhiqd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)*
 ## BYUPD Shouldn't Exist – Let's Defund It!
 
 ### **BYUPD’s status as a full-fledged police force working for a private entity allows for improper conduct among officers to go unchecked and creates a culture of fear among the university’s students.** 
