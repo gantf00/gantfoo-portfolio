@@ -7,9 +7,10 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
+*Published in [The Salt Lake Tribune](https://www.sltrib.com/opinion/commentary/2022/12/22/grant-frazier-bigger-highways/)*
+
 ## **Bigger highways don’t fix traffic. Why won’t we stop building them?** 
 
-*Published in [The Salt Lake Tribune](https://www.sltrib.com/opinion/commentary/2022/12/22/grant-frazier-bigger-highways/)*
 <div class="essay-content">
 
 The Utah Department of Transportation recently unveiled its plan to spend $1.6 billion to expand the I-15 between Farmington and Salt Lake City in order to reduce congestion on the highway. This expansion would turn the stretch of road into either an 18- or 20-lane-wide beast.
