@@ -7,10 +7,11 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-## **Roots** 
-*Published in [WREATH LC](https://www.instagram.com/wreathlc/)'s Spring 2025 mag*
 <div class="poem-content">
-  
+
+*Published in [WREATH LC](https://www.instagram.com/wreathlc/)'s Spring 2025 mag*
+## **Roots** 
+
 my greatgreatgreatgreat grandpa david   
 joined the mormon church in 1835\.  
 he was a quiet, mystic farmer man   
