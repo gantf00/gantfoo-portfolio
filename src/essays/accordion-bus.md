@@ -6,11 +6,11 @@ publicationUrl: https://www.prodigalpress.org/articles/i-love-uvx
 layout: default.njk
 bodyClass: poem-page
 ---
+<div class="essay-content">
+  
 *Published in [Prodigal Press](https://www.prodigalpress.org/articles/i-love-uvx)*
-
 ## **I Am in Love with Provo's Accordion Bus** 
 
-<div class="essay-content">
 I am in love with our city’s wanna-be-train. The Utah Valley Express, also known as UVX, is an accordion-style rapid transit bus that acts more like a light rail than it does a commuter bus. With dedicated lanes, independent traffic lights, and aesthetically-pleasing platform entrances, UVX stands as an exemplar of why people love good public transit. 
 
 For public transit to be successful, there are a handful of commandments it has to follow: it must be frequent, it must be reliable, and it must be efficient. UVX follows these principles masterfully.  The bus stops at each station over 90 times a day and comes every 10-15 minutes. You don’t have to memorize the bus schedule to take UVX; you can just show up and trust that it’ll be there soon. Additionally, UVX takes people where they want to go—from Provo and Orem’s frontrunner stations to Provo Center Street, BYU stadium, Orem’s University Mall, to Orem Main Street—and it does it quickly. It follows the rules of your average city light-rail, but with a far lower upfront cost. Buses don’t carry the monetary risk of purchasing rails and trains, or the public outrage that would follow from widespread road closures to install them. However, UVX can still complete routes rapidly and make passengers feel safe with well-marked, well-lit platforms (as opposed to a simple bus sign planted on a dark street corner). And, the dedicated lane and platform infrastructure provides Provo with a path to eventually converting the UVX bus system into a city light rail.
