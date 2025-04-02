@@ -6,11 +6,11 @@ publicationUrl: https://www.theurbanist.org/2022/12/27/nuance-in-my-backyard/
 layout: default.njk
 bodyClass: poem-page
 ---
-*Published in [The Urbanist](https://www.theurbanist.org/2022/12/27/nuance-in-my-backyard)*
-
-## **Nuance in My Backyard** 
 
 <div class="essay-content">
+  
+*Published in [The Urbanist](https://www.theurbanist.org/2022/12/27/nuance-in-my-backyard)*
+## **Nuance in My Backyard** 
 
 *Disclaimer* I don't really believe everything that I wrote in this piece at the time. I was 22 and still figuring out my authorial voice and opinions about lots of stuff. But this is my first time ever doing some original interviewing/research + getting published for it, which was very exciting and formative for me at the time, so I still decided to share it on my site.
 
