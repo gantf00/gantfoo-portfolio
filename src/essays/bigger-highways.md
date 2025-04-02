@@ -7,12 +7,11 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-*Published in [The Salt Lake Tribune](https://www.sltrib.com/opinion/commentary/2022/12/22/grant-frazier-bigger-highways/)*
-
-## **Bigger highways don’t fix traffic. Why won’t we stop building them?** 
-
 <div class="essay-content">
-
+  
+*Published in [The Salt Lake Tribune](https://www.sltrib.com/opinion/commentary/2022/12/22/grant-frazier-bigger-highways/)*
+## **Bigger highways don’t fix traffic. Why won’t we stop building them?** 
+  
 The Utah Department of Transportation recently unveiled its plan to spend $1.6 billion to expand the I-15 between Farmington and Salt Lake City in order to reduce congestion on the highway. This expansion would turn the stretch of road into either an 18- or 20-lane-wide beast.
 
 As of yet, we have no idea how many businesses and homes would be leveled to accomplish this construction, and Gov. Spencer Cox’s recent comment that he’s “hopeful” homes won’t be demolished doesn’t do much to assuage concerns. What we do know, however, is this: Adding more lanes does not fix traffic.
