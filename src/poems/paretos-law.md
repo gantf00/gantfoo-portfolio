@@ -8,8 +8,10 @@ bodyClass: poem-page
 ---
 
 <div class="poem-header">
+  
 *Published in [Prodigal Press](https://www.instagram.com/p/Coc_9tfvEC8/)*
 ## **Pareto's Law** 
+
 </div>
 
 <div class="poem-content">
