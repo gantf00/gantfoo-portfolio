@@ -7,7 +7,7 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-<div class="poem-header">
+<div class="essay-content">
   
 *Published in [Prodigal Press](https://www.instagram.com/p/Coc_9tfvEC8/)*
 ## **Pareto's Law** 
