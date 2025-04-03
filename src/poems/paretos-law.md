@@ -7,10 +7,12 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-<div class="poem-content">
-
+<div class="poem-header">
 *Published in [Prodigal Press](https://www.instagram.com/p/Coc_9tfvEC8/)*
 ## **Pareto's Law** 
+</div>
+
+<div class="poem-content">
 
 I am wearing an olive green apron and   
 Shout greetings at arriving friends,  
