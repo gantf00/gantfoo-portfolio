@@ -6,11 +6,10 @@ publicationUrl: https://www.instagram.com/wreathlc/
 layout: default.njk
 bodyClass: poem-page
 ---
-
-<div class="poem-content">
-
 *Published in [WREATH LC](https://www.instagram.com/wreathlc/)'s Spring 2025 mag*
 ## **Roots** 
+
+<div class="poem-content">
 
 my greatgreatgreatgreat grandpa david   
 joined the mormon church in 1835\.  
