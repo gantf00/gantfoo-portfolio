@@ -9,20 +9,17 @@ bodyClass: poem-page
 
 <div class="title-block">
 
-*Published to MaudlinHouse.net on Apr. 5 2025*
-## **Twitter DM Death Threat I Sent to Jesus Christ Last Night** 
+
 
 </div>
 
 <div class="poem-content">
 
-**NOT YET POSTED!**
-Poem will be 
-shared on the
-MaudlinHouse.net
-website on 
-April 5.
+<h1>Twitter DM Death Threat I Sent to Jesus Christ Last Night</h1>
 
+*To be published to MaudlinHouse.net on Apr. 5 2025*
+
+**NOT YET POSTED!**
 Stay tuned :)
  
   
