@@ -20,12 +20,6 @@ bodyClass: poem-page
  *Forthcoming in the summer 2025 edition of [FRiGG Mag](https://friggmagazine.com/)*
  
 **NOT YET POSTED!**
-Poems will be 
-included in the 
-forthcoming 
-summer edition 
-of FRiGG Mag.
-
 Stay tuned :)
 
 </div>
