@@ -7,12 +7,10 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
+<div class="poem-content">
 
 *Published to MaudlinHouse.net on Apr. 5 2025*
 ## **Twitter DM Death Threat I Sent to Jesus Christ Last Night** 
-
-<div class="poem-content">
-
 
 NOT YET POSTED! Poem goes live on April 5 :) 
   
