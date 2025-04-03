@@ -202,6 +202,30 @@ main {
   }
 }
 
+.poem-header {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 1rem;
+  white-space: normal;
+  line-height: 1.6;
+  color: $blue;
+  
+  h1, h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+  }
+  
+  em, i {
+    color: rgba($blue, 0.5);
+  }
+  
+  @media (max-width: $mobile) {
+    padding: 0.5rem;
+    font-size: 0.9em;
+  }
+}
+
 .poem-content {
   width: max-content;
   min-width: 100%;
@@ -211,6 +235,17 @@ main {
   padding: 1rem;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
+  
+  /* Only apply white-space: pre to the actual poem text */
+  p {
+    white-space: pre;
+  }
+  
+  /* Allow the title and publication info to wrap normally */
+  h1, h2, h3, em, i {
+    white-space: normal;
+    word-wrap: break-word;
+  }
   
   &::-webkit-scrollbar {
     height: 6px;
