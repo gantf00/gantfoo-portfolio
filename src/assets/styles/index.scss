@@ -202,70 +202,6 @@ main {
   }
 }
 
-.poem-header {
-  max-width: 65ch;
-  margin: 0 auto;
-  padding: 1rem;
-  white-space: normal;
-  line-height: 1.6;
-  color: $blue;
-  
-  h1, h2, h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    word-wrap: break-word;
-  }
-  
-  em, i {
-    color: rgba($blue, 0.5);
-  }
-  
-  @media (max-width: $mobile) {
-    padding: 0.5rem;
-    font-size: 0.9em;
-  }
-}
-
-.poem-content {
-  width: max-content;
-  min-width: 100%;
-  white-space: pre;
-  overflow-x: auto;
-  line-height: 1.4;
-  padding: 1rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  
-  /* Only apply white-space: pre to the actual poem text */
-  p {
-    white-space: pre;
-  }
-  
-  /* Allow the title and publication info to wrap normally */
-  h1, h2, h3, em, i {
-    white-space: normal;
-    word-wrap: break-word;
-  }
-  
-  &::-webkit-scrollbar {
-    height: 6px;
-  }
-  
-  &::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  &::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-  }
-  
-  @media (max-width: $mobile) {
-    font-size: 0.9em;
-    padding: 0.5rem;
-  }
-}
-
 // Essay styles
 .essay-content {
   max-width: 65ch;
@@ -300,5 +236,73 @@ footer {
   
   @media (max-width: $mobile) {
     padding: 1rem;
+  }
+}
+
+// Poem content and header styles
+.poem-content {
+  width: max-content;
+  min-width: 100%;
+  white-space: pre;
+  overflow-x: auto;
+  line-height: 1.4;
+  padding: 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  text-align: left;
+  
+  h1, h2, h3 {
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  em, i {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+  
+  @media (max-width: $mobile) {
+    font-size: 0.9em;
+    padding: 0.5rem;
+  }
+}
+
+.poem-header {
+  text-align: left;
+  padding: 1rem;
+  white-space: normal;
+  line-height: 1.6;
+  color: $blue;
+  max-width: 100%;
+  
+  h1, h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  em, i {
+    color: rgba($blue, 0.5);
+    text-align: left;
+  }
+  
+  @media (max-width: $mobile) {
+    padding: 0.5rem;
+    font-size: 0.9em;
   }
 }
