@@ -11,4 +11,7 @@ bodyClass: poem-page
 ## **FIRST VISION / On That Stray Cat from 2022 / birdbrain** 
 
 <div class="poem-content">
+ 
+NOT YET POSTED! Poems will be included in the bi-annual summer edition of FRiGG Mag :) Stay tuned!
+
 </div>
