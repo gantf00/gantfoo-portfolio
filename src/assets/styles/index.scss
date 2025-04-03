@@ -380,6 +380,37 @@ main > div {
   transform: translateY(-2px);
 }
 
+.site-header {
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  
+  @media (max-width: $mobile) {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.home-link {
+  display: inline-block;
+  margin: 1rem 0;
+  font-family: $heading-font;
+  color: $blue;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  
+  &:hover {
+    outline: 2px solid $blue;
+    outline-offset: 2px;
+    background-color: rgba($bg-body, 0.6);
+    transform: translateY(-2px);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
 
 
 
