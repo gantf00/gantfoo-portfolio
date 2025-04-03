@@ -319,6 +319,32 @@ footer {
   line-height: 1.4 !important;
 }
 
+@media (max-width: 480px) {
+  .poem-content h1,
+  .poem-page .poem-content h1 {
+    font-size: 1.5rem !important;
+    padding: 0 !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.3 !important;
+    /* These properties are critical for word wrapping */
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    hyphens: auto !important;
+    white-space: normal !important;
+  }
+  
+  /* Make the poem content container full width on mobile */
+  .poem-content {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    white-space: pre-wrap !important;
+    padding: 0.5rem !important;
+  }
+}
+
 /* Content containers with hover effect */
 .home-container, 
 .poem-content, 
