@@ -9,7 +9,7 @@ bodyClass: poem-page
 
 <div class="poem-content">
 
-<h1> On That Stray Cat from 2022, FIRST VISION,birdbrain</h1>
+<h1>On That Stray Cat from 2022 // First Vision // birdbrain</h1>
 
 *Forthcoming in the summer 2025 edition of [FRiGG Mag](https://friggmagazine.com/)*
  
