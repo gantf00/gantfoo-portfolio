@@ -20,13 +20,13 @@
   </head>
   <body class="{{ bodyClass }}">
     <!-- Add navigation here -->
-    <header style="width: 100%; max-width: 800px; padding: 0 3rem; margin: 0 auto;">
+    <header class="site-header">
       <nav>
         {% if page.url != "/" %}
-          <a href="/" style="display: inline-block; margin: 1rem 0;">Home</a>
+          <a href="/" class="home-link">home</a>
         {% endif %}
       </nav>
-    </header>
+</header>
     <main>
       {{ content | safe }}
     </main>
