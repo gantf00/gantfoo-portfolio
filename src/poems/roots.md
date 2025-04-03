@@ -9,7 +9,7 @@ bodyClass: poem-page
 
 *published in [Wreath LC's](https://www.instagram.com/wreathlc/) Spring Lit Mag*
 
-<div class="poem-header">
+<div class="poem-title">
   <h2>roots</h2>
 </div>
 
