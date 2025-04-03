@@ -16,6 +16,13 @@ bodyClass: poem-page
 
 <div class="poem-content">
  
-NOT YET POSTED! Poems will be included in the forthcoming summer edition of FRiGG Mag :) Stay tuned!
+**NOT YET POSTED!**
+Poems will be 
+included in the 
+forthcoming 
+summer edition 
+of FRiGG Mag.
+
+Stay tuned :)
 
 </div>
