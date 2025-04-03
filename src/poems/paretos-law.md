@@ -10,11 +10,13 @@ bodyClass: poem-page
 <div class="title-block">
   
 *Published in [Prodigal Press](https://www.instagram.com/p/Coc_9tfvEC8/)*
-## **Pareto's Law** 
+
 
 </div>
 
 <div class="poem-content">
+
+<h1>Pareto's Law</h1>
 
 I am wearing an olive green apron and   
 Shout greetings at arriving friends,  
