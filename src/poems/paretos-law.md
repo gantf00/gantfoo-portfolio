@@ -6,9 +6,8 @@ publicationUrl: https://www.instagram.com/p/Coc_9tfvEC8/
 layout: default.njk
 bodyClass: poem-page
 ---
-
-## **Pareto's Law** 
 *Published in [Prodigal Press](https://www.instagram.com/p/Coc_9tfvEC8/)*
+## **Pareto's Law** 
 <div class="poem-content">
 
 I am wearing an olive green apron and   
