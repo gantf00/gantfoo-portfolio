@@ -304,23 +304,20 @@ footer {
   }
 }
 
-/* Additional fix for poem titles */
-.poem-title {
+.poem-content h1 {
+  display: block !important;
   white-space: normal !important;
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
   width: 100% !important;
   max-width: 100% !important;
-  
-  h1, h2, h3 {
-    white-space: normal !important;
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
+  text-align: left !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box !important;
+  overflow-x: visible !important;
+  font-size: 1.8rem !important;
+  line-height: 1.4 !important;
 }
-
 
 /* Content containers with hover effect */
 .home-container, 
@@ -330,18 +327,6 @@ main > div {
   transition: all 0.3s ease;
   position: relative;
   padding: 1rem;
-}
-
-/* The hover outline effect */
-.home-container:hover, 
-.poem-content:hover, 
-.essay-content:hover,
-main > div:hover {
-  outline: 2px solid $blue;
-  outline-offset: 4px;
-  background-color: rgba($bg-body, 0.6);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* List items hover effect */
@@ -356,17 +341,6 @@ main > div:hover {
   outline-offset: 2px;
   background-color: rgba($bg-body, 0.6);
   transform: translateY(-2px);
-}
-
-/* Individual poem/essay titles hover effect */
-.poem-title:hover h2,
-.essay-content h2:hover,
-.poem-content h1:hover,
-.poem-content h2:hover {
-  outline: 2px solid $blue;
-  outline-offset: 2px;
-  padding: 0.5rem;
-  display: inline-block;
 }
 
 
