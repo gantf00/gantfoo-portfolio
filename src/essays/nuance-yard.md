@@ -12,7 +12,7 @@ bodyClass: poem-page
 *Published in [The Urbanist](https://www.theurbanist.org/2022/12/27/nuance-in-my-backyard)*
 ## **Nuance in My Backyard** 
 
-*Disclaimer* I don't really believe everything that I wrote in this piece at the time. I was 22 and still figuring out my authorial voice and opinions about lots of stuff. But this is my first time ever doing some original interviewing/research + getting published for it, which was very exciting and formative for me at the time, so I still decided to share it on my site.
+*Disclaimer I don't really stand by the opinions that I wrote in this piece at the time. I was 22 and still figuring out my authorial voice and opinions about lots of stuff. I would say that I have even more, dare I say, nuanced, and often-critical views about YIMBYism today. But this is my first time ever doing some original interviewing/research + getting published for it, which was very exciting and formative for me at the time, so I still decided to share it on my site.*
 
 ### **Nimbys, Yimbys, and How Toxic Waste Kicked Off Both Movements.**
 For years, I’ve identified as a Yimby advocate — an acronym which means “Yes, in my backyard.” It is often understood to mean not allowing slow bureaucracy and antagonistic old cranks to stop the construction of apartments and light rail. It arose as a term to oppose Nimbys, those who say “not in my backyard” to any sort of development, be it transit, shelters, or simply a new neighbor. 
