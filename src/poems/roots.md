@@ -8,10 +8,8 @@ bodyClass: poem-page
 ---
 
 <div class="title-block">
-
-*Published in [WREATH LC](https://www.instagram.com/wreathlc/)'s Spring 2025 mag*
-## **Roots** 
-
+  <h1 class="name">Roots</h1>
+  <p> // Published in <a href="https://www.instagram.com/wreathlc/">Wreath LC's</a> Spring Lit Mag</p>
 </div>
 
 <div class="poem-content">
