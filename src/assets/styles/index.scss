@@ -299,3 +299,67 @@ footer {
   }
 }
 
+/* Content containers with hover effect */
+.home-container, 
+.poem-content, 
+.essay-content,
+main > div {
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 1rem;
+}
+
+/* The hover outline effect */
+.home-container:hover, 
+.poem-content:hover, 
+.essay-content:hover,
+main > div:hover {
+  outline: 2px solid $blue;
+  outline-offset: 4px;
+  background-color: rgba($bg-body, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List items hover effect */
+.work-list li {
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.work-list li:hover {
+  outline: 2px solid $blue;
+  outline-offset: 2px;
+  background-color: rgba($bg-body, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Individual poem/essay titles hover effect */
+.poem-title:hover h2,
+.essay-content h2:hover,
+.poem-content h1:hover,
+.poem-content h2:hover {
+  outline: 2px solid $blue;
+  outline-offset: 2px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+/* Optional: Add a subtle animation to make the outline appear */
+@keyframes outline-appear {
+  from {
+    outline-width: 0;
+    outline-offset: 0;
+  }
+  to {
+    outline-width: 2px;
+    outline-offset: 4px;
+  }
+}
+
+/* Apply the animation to all hover effects if desired */
+*:hover {
+  animation: outline-appear 0.2s ease forwards;
+}
+
