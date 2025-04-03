@@ -1,5 +1,5 @@
 ---
-title: [3 Poems] FIRST VISION / On That Stray Cat from 2022 / birdbrain
+title: 3 Poems: On That Stray Cat from 2022 / First Vision / birdbrain
 date: 2025-07-01
 publication: FRiGG Mag
 publicationUrl: https://friggmagazine.com/
