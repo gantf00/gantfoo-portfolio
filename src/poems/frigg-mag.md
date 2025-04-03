@@ -7,14 +7,17 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-<div class="title-block">
-  
-*Forthcoming in the summer 2025 edition of [FRiGG Mag](https://friggmagazine.com/)*
-## **FIRST VISION / On That Stray Cat from 2022 / birdbrain** 
 
-</div>
+  
+
+
+
 
 <div class="poem-content">
+
+<h1>FIRST VISION / On That Stray Cat from 2022 / birdbrain</h1>
+
+ *Forthcoming in the summer 2025 edition of [FRiGG Mag](https://friggmagazine.com/)*
  
 **NOT YET POSTED!**
 Poems will be 
