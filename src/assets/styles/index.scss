@@ -189,6 +189,27 @@ main {
   }
 }
 
+.poem-header {
+  white-space: normal;
+  line-height: 1.6;
+  color: $blue;
+  padding-bottom: 1rem;
+  
+  h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+  }
+  
+  em, i {
+    color: rgba($blue, 0.5);
+  }
+  
+  @media (max-width: $mobile) {
+    font-size: 0.9em;
+  }
+}
+
 // Poem page styles
 .poem-page {
   main {
