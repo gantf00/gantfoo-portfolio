@@ -7,11 +7,10 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-<div class="title-block">
+*published in [Wreath LC's](https://www.instagram.com/wreathlc/) Spring Lit Mag*
+
+<div class="poem-header">
   <h2>roots</h2>
-  <div class=meta-info>
-    <p> // Published in <a href="https://www.instagram.com/wreathlc/">Wreath LC's</a> Spring Lit Mag</p>
-  </div>
 </div>
 
 <div class="poem-content">
