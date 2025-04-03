@@ -7,13 +7,11 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-*published in [Wreath LC's](https://www.instagram.com/wreathlc/) Spring Lit Mag*
-
-<div class="poem-title">
-  <h2>roots</h2>
-</div>
-
 <div class="poem-content">
+
+<h2>roots</h2>
+
+*published in [Wreath LC's](https://www.instagram.com/wreathlc/) Spring Lit Mag*
 
 my greatgreatgreatgreat grandpa david   
 joined the mormon church in 1835\.  
