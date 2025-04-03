@@ -281,28 +281,3 @@ footer {
   }
 }
 
-.poem-header {
-  text-align: left;
-  padding: 1rem;
-  white-space: normal;
-  line-height: 1.6;
-  color: $blue;
-  max-width: 100%;
-  
-  h1, h2, h3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    word-wrap: break-word;
-    text-align: left;
-  }
-  
-  em, i {
-    color: rgba($blue, 0.5);
-    text-align: left;
-  }
-  
-  @media (max-width: $mobile) {
-    padding: 0.5rem;
-    font-size: 0.9em;
-  }
-}
