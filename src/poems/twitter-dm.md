@@ -16,6 +16,14 @@ bodyClass: poem-page
 
 <div class="poem-content">
 
-NOT YET POSTED! Poem goes live on April 5 :) 
+**NOT YET POSTED!**
+Poem will be 
+shared on the
+MaudlinHouse.net
+website on 
+April 5.
+
+Stay tuned :)
+ 
   
 </div>
