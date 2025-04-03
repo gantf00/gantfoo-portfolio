@@ -7,7 +7,7 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-<div class="essay-content">
+<div class="title-block">
 
 *Published in [WREATH LC](https://www.instagram.com/wreathlc/)'s Spring 2025 mag*
 ## **Roots** 
