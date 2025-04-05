@@ -14,7 +14,7 @@ I'm an emerging poet based out of Chicago (the greatest city in the world). My p
 
 Back in the day, I co-founded <strong>[The Prodigal Press](https://www.instagram.com/prodigalpressprovo)</strong>, a Provo, UT-based journalism/literary collective. I'm no longer involved with the group, but the current team is making stunning, beautiful content and you should go check it out. Around this time, I wrote some articles about trains and urban planning, too, which you can find on my home page.
 
-My writing has been published in various magazines and publications including *FRiGG* (forthcoming), *Veilance Press* (forthcoming), *WREATH Mag*, *Maudlin House*, *The Salt Lake Tribune*, *Prodigal Press* (don't call me a nepo baby), *The Urbanist*, and more. 
+My writing has been published in various publications including *FRiGG* (forthcoming), *Veilance Press* (forthcoming), *WREATH Mag*, *Maudlin House*, *The Salt Lake Tribune*, *Prodigal Press* (don't call me a nepo baby), *The Urbanist*, and more. 
 
 <h3><strong>contact</strong></h3>
 
