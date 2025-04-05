@@ -1,5 +1,5 @@
 ---
-title: "[Forthcoming] 2 Poems: New Old West / Stoner"
+title: "[Forthcoming] 3 Poems: New Old West / Stoner / Lakebird Machine"
 date: 2025-08-01
 publication: Veilance Mag
 publicationUrl: https://www.instagram.com/v.e.i.l.a.n.c.e/
