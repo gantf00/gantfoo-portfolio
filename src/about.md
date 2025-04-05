@@ -16,7 +16,7 @@ Back in the day, I co-founded <strong>[The Prodigal Press](https://www.instagram
 
 My writing has been published in various magazines and publications including *FRiGG* (forthcoming), *Veilance Press* (forthcoming), *WREATH Mag*, *Maudlin House*, *The Salt Lake Tribune*, *Prodigal Press* (don't call me a nepo baby), *The Urbanist*, and more. 
 
-<h3></strong>contact</strong></h3>
+<h3><strong>contact</strong></h3>
 
 Feel free to reach out to me via:
 - twitter: [@gantisdant](https://www.x.com/gantisdant)
