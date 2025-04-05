@@ -22,11 +22,11 @@
   </url>
 
   <url>
-    <loc>https://github.com/clenemt/eleventy-webpack/</loc>
+    <loc>https://github.com/clenemt/eleventy-webpack/poems/twitter-dm/</loc>
   </url>
 
   <url>
-    <loc>https://github.com/clenemt/eleventy-webpack/poems/twitter-dm/</loc>
+    <loc>https://github.com/clenemt/eleventy-webpack/</loc>
   </url>
 
   <url>
@@ -35,6 +35,10 @@
 
   <url>
     <loc>https://github.com/clenemt/eleventy-webpack/poems/frigg-mag/</loc>
+  </url>
+
+  <url>
+    <loc>https://github.com/clenemt/eleventy-webpack/poems/veilance-mag/</loc>
   </url>
 
 </urlset>
