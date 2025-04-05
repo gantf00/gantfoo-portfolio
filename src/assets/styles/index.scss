@@ -380,6 +380,8 @@ main > div {
   transform: translateY(-2px);
 }
 
+
+/* Header and navigation styles */
 .site-header {
   width: 100%;
   max-width: 800px;
@@ -390,18 +392,20 @@ main > div {
     padding: 1rem;
   }
   
-  /* This will align header content with main content */
+  /* Navigation container */
   nav {
     max-width: 800px;
     margin: 0 auto;
     width: 100%;
-    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
   }
 }
 
-.nav-link {
+/* Navigation link styles */
+.home-link, .nav-link {
   display: inline-block;
-  margin: 1rem 0;
+  margin: 1rem 0.75rem;
   font-family: $heading-font;
   color: $blue;
   text-decoration: none;
@@ -409,7 +413,7 @@ main > div {
   padding: 0.5rem;
   
   @media (max-width: $mobile) {
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0.5rem;
     font-size: 1.1rem;
   }
   
@@ -423,32 +427,6 @@ main > div {
     font-weight: 700;
   }
 }
-
-.site-header {
-  width: 100%;
-  max-width: 800px;
-  padding: 1rem 2rem;
-  margin: 0 auto;
-  
-  @media (max-width: $mobile) {
-    padding: 1rem;
-  }
-  
-  /* This will align header content with main content */
-  nav {
-    max-width: 800px;
-    margin: 0 auto;
-    width: 100%;
-    padding-left: 1rem;
-    
-    &.nav-center {
-      display: flex;
-      justify-content: center;
-      padding-left: 0;
-    }
-  }
-}
-
 
 
 
