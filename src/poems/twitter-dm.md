@@ -17,7 +17,7 @@ bodyClass: poem-page
 
 <h1>Twitter DM Death Threat I Sent to Jesus Christ Last Night</h1>
 
-Published to MaudlinHouse.net on Apr. 5 2025*
+*Published to MaudlinHouse.net on Apr. 5 2025*
 
 [**Read it here!**](https://maudlinhouse.net/twitter-dm-death-threat-i-sent-to-jesus-christ-last-night/)
 
