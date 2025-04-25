@@ -8,7 +8,8 @@ bodyClass: poem-page
 ---
 <div class="essay-content">
   
-*Forthcoming in [wildscape.](https://wildscapelit.com/)*
+*Forthcoming in the summer 2025 edition of [wildscape.](https://wildscapelit.com/)*
+
 Stay tuned! :)
 
 </div>
