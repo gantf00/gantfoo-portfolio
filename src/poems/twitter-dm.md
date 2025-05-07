@@ -35,6 +35,6 @@ you holy ghost’s ciggy-butt-charred frame, you are a locket of
 you are cannibal teeth gnawing my petrochemical kitchen sink,
 you are black tar fuming up up up and spewing the color of red-
 robe cardinals locking down rome so they can burn the pope and
-transubstantiate his holy Holy Holy into soot for all the birds to *choke*!!!
+transubstantiate his holy Holy Holy into soot for all the birds to *choke* !!!
   
 </div>
