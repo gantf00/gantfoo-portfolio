@@ -1,5 +1,5 @@
 ---
-title: "[Forthcoming] Bok-bok Brother"
+title: "Bok-bok Brother"
 date: 2025-07-15
 publication: Fork Apple Press (The Core Review)
 publicationUrl: https://forkapplepress.com/the-core-review
@@ -8,8 +8,6 @@ bodyClass: poem-page
 ---
 <div class="essay-content">
   
-*Forthcoming in the summer 2025 edition of Fork Apple Press's [The Core Review](https://forkapplepress.com/the-core-review)*
-
-Stay tuned! :)
+*Piece is live in [Fork Apple Press's Core Review #2](https://forkapplepress.com/the-core-review/issue-2/bok-bok-brother).*
 
 </div>
