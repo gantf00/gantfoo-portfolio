@@ -48,22 +48,3 @@ bodyClass: body
  {% endfor %}
  </ul>
 </div>
-
-<h2>selected past work</h2>
-<p>past writing that's less representative of my current voice. mostly articles/essays about transit and local issues.</p>
- <ul class="work-list">
- {% for article in collections.articles %}
-   <li>
-     <a href="{{ article.url }}">{{ article.data.title }}</a>
-     <div class="meta-info">
-       {% if article.data.publicationUrl %}
-         <a href="{{ article.data.publicationUrl }}" class="publication">{{ article.data.publication }}</a>
-       {% else %}
-         <span class="publication">{{ article.data.publication }}</span>
-       {% endif %}
-       <span class="date">// {{ article.data.date | format("MMM yyyy") }}</span>
-     </div>
-   </li>
- {% endfor %}
- </ul>
-</div>
