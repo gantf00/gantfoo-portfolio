@@ -7,9 +7,9 @@ layout: default.njk
 bodyClass: poem-page
 ---
 
-## **Bigger highways don’t fix traffic. Why won’t we stop building them?** 
-
 <div class="essay-content">
+
+## **Bok-bok Brother** 
   
 *Piece is live in [Fork Apple Press's Core Review #2](https://forkapplepress.com/the-core-review/issue-2/bok-bok-brother).*
 
