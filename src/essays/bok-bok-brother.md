@@ -1,6 +1,6 @@
 ---
 title: "Bok-bok Brother"
-date: 2025-07-15
+date: 2025-06-01
 publication: Fork Apple Press (The Core Review)
 publicationUrl: https://forkapplepress.com/the-core-review
 layout: default.njk
