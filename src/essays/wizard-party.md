@@ -8,7 +8,7 @@ bodyClass: poem-page
 ---
 <div class="essay-content">
   
-*Piece forthcoming in [Fish Barrel Review](http://fishbarrelreview.wordpress.com/*
+*Piece forthcoming in [Fish Barrel Review](http://fishbarrelreview.wordpress.com/)*
 
 Stay tuned! :) 
 
