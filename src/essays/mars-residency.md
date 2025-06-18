@@ -1,5 +1,5 @@
 ---
-title: "RE: Your Mars Artist Residency Early Termination Request"
+title: "[Forthcoming] RE: Your Mars Artist Residency Early Termination Request"
 date: 2025-06-27
 publication: Maudlin House
 publicationUrl: https://maudlinhouse.com
