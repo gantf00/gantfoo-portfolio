@@ -9,7 +9,7 @@ bodyClass: poem-page
 
 <div class="essay-content">
 
-## **Bok-bok Brother** 
+## **RE: Your Mars Artist Residency Early Termination Request** 
   
 *Piece will be published to [Maudlin House](https://maudlinhouse.com) on June 27, 2025.*
 
