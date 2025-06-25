@@ -1,6 +1,6 @@
 ---
 title: "[Forthcoming] The Stuff I Want to Put in My Backpack Right Before I Die"
-date: 2025-08-01
+date: 2025-07-13
 publication: HAD
 publicationUrl: https://havehashad.com/
 layout: default.njk
