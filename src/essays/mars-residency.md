@@ -2,7 +2,7 @@
 title: "RE: Your Mars Artist Residency Early Termination Request"
 date: 2025-06-27
 publication: Maudlin House
-publicationUrl: https://maudlinhouse.com
+publicationUrl: https://maudlinhouse.net/re-your-mars-artist-residency-early-termination-request/
 layout: default.njk
 bodyClass: poem-page
 ---
