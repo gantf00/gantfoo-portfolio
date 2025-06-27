@@ -11,8 +11,8 @@ bodyClass: poem-page
 
 ## **RE: Your Mars Artist Residency Early Termination Request** 
   
-*Piece will be published to [Maudlin House](https://maudlinhouse.com) on June 27, 2025.*
+*Piece published on [Maudlin House](https://maudlinhouse.com) on June 27, 2025.*
 
-Stay tuned! :)
+[Read it here!](https://maudlinhouse.net/re-your-mars-artist-residency-early-termination-request/)
 
 </div>
