@@ -13,5 +13,7 @@ bodyClass: poem-page
 
 *Published in the summer 2025 edition of [FRiGG Mag](https://friggmagazine.com/)*
 
+[Read them here!](https://friggmagazine.com/)
+
 
 </div>
