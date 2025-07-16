@@ -1,5 +1,5 @@
 ---
-title: "[Forthcoming] Chicago Common Brick"
+title: "Chicago Common Brick"
 date: 2025-07-15
 publication: wildscape.
 publicationUrl: https://wildscapelit.com/
@@ -10,6 +10,6 @@ bodyClass: poem-page
   
 *Published in Issue #3 of [wildscape.](https://wildscapelit.com/chicago-common-brick-grant-ellsworth/)*
 
-[*Click here to read!*](https://wildscapelit.com/chicago-common-brick-grant-ellsworth/)
+[**Click here to read!**](https://wildscapelit.com/chicago-common-brick-grant-ellsworth/)
 
 </div>
