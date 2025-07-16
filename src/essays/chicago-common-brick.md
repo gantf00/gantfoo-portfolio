@@ -8,8 +8,8 @@ bodyClass: poem-page
 ---
 <div class="essay-content">
   
-*Forthcoming in the summer 2025 edition of [wildscape.](https://wildscapelit.com/)*
+*Published in Issue #3 of [wildscape.](https://wildscapelit.com/chicago-common-brick-grant-ellsworth/)*
 
-Stay tuned! :)
+[*Click here to read!*](https://wildscapelit.com/chicago-common-brick-grant-ellsworth/)
 
 </div>
