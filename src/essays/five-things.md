@@ -1,5 +1,5 @@
 ---
-title: 5 Rounds of "5 Things" 
+title: [Forthcoming] 5 Rounds of "5 Things" 
 date: 2025-08-30
 publication: HAD
 publicationUrl: https://www.havehashad.com
