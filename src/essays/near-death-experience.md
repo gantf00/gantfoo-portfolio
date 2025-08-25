@@ -1,5 +1,5 @@
 ---
-title: "A Near Death Experience — Hellogoodbye"
+title: "[Forthcoming] A Near Death Experience — Hellogoodbye"
 date: 2025-08-30
 publication: Major 7th Magazine
 publicationUrl: https://www.major7mag.com/
